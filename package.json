@@ -1,10 +1,11 @@
 {
   "name": "template",
   "version": "1.0.0",
-  "description": "",
+  "description": "The goal for this assignment is to create a CRUD Api to allow users to track previous workout sessions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,13 @@
     "express": "^4.16.2",
     "knex": "^0.13.0",
     "pg": "^7.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonZee/workout-api-assignment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DonZee/workout-api-assignment/issues"
+  },
+  "homepage": "https://github.com/DonZee/workout-api-assignment#readme"
 }
